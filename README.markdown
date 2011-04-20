@@ -110,7 +110,7 @@ Pimped-Vim License
 ------------------
 Pimped-Vim is released under the `wtfpl`.
 
-See http://sam.zoy.org/wtfpl/COPYING.
+See http://sam.zoy.org/wtfpl
 
 Basically: Do whatever you want with my stuff, just don't sue me.  I make no warrantees about its use, blah blah blah, just live free and go create stuff!
 
