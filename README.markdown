@@ -108,12 +108,11 @@ Here's some crap I have to put in here to keep people from suing me.
 
 Pimped-Vim License
 ------------------
-License                                                   *Pimped-Vim License*
+Pimped-Vim is released under the `wtfpl`.
 
-Pimped-Vim is released under the wtfpl.
 See http://sam.zoy.org/wtfpl/COPYING.
 
-Do whatever you want with my stuff, just don't sue me.  I make no warrantees about its use, blah blah blah, just live free and go create stuff!
+Basically: Do whatever you want with my stuff, just don't sue me.  I make no warrantees about its use, blah blah blah, just live free and go create stuff!
 
 
 
