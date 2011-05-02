@@ -26,19 +26,23 @@ Usage
  1. do `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
  2. go to your home directory
  3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`
+ 
            `ln -s /path/to/Pimped-Vim/.vimrc .vimrc`
+
  4. create symlink called `.vim` and point it to the folder `Pimped-Vim/.vim/`:
+
            `ln -s /path/to/Pimped-Vim/.vim/ .vim`
+
 
 
 **Window Movement**
 
-I stole Derek Wyatt's window-motion, which lets you do this to move control windows:
+I stole Derek Wyatt's window-motion bindings, which lets you do this to move control windows:
 
- - `,h` move to the window to the left
- - `,j` = move to the window below
- - `,k` = move to the window above
- - `,l` = move to the window to the right
+ - `,h` move control to the window to the left
+ - `,j` = move control to the window below
+ - `,k` = move control to the window above
+ - `,l` = move control to the window to the right
 
 (Normally, these would be `^w h`  `^w j`  etc)
 
