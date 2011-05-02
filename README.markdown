@@ -23,6 +23,9 @@ About
 Usage
 -----
 
+
+**Installation**
+
  1. checkout the repo (the `--recursive` will force it to also checkout the submodules):
 
            `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
