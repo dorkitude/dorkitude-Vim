@@ -23,9 +23,15 @@ About
 Usage
 -----
 
- 1. do `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
- 2. go to your home directory
- 3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`
+ 1. checkout the repo (the `--recursive` will force it to also checkout the submodules):
+
+           `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
+
+ 2. go to your home directory:
+
+           `cd ~`
+
+ 3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`:
  
            `ln -s /path/to/Pimped-Vim/.vimrc .vimrc`
 
