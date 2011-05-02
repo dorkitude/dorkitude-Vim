@@ -12,10 +12,12 @@ About
 
 **If you're new to vim**, you should really watch all of Derek Wyatt's quirky/awesome tutorial videos [here.]
 
-**If you use git (and presumably you do, since this is a github README file), the vim plugin Fugitive (included in this repo as a submodule)
+**If you use git (and presumably you do, since this is a github README file), the vim plugin Fugitive (included in this repo as a submodule) is a must-have! Watch [these] [vimcasts] to see why.
 
   [@dorkitude]: http://twitter.com/dorkitude
   [here.]: http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/
+  [these]: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
+  [vimcasts]: http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
 
 
 Usage
