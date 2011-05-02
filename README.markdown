@@ -10,6 +10,14 @@ About
 
 **After becoming as fast as possible** with a combination of TextMate and Visor, I decided I needed more speed.  A paradigm shift was in order.  On April 9th, 2011, I switched to vim.
 
+**This repository is here to help** people make a similar transition.  There will be trial and error with key bindings, and with adding/removing extensions, but HEAD on master will serve as the current best practice (as defined by my own daily usage).  That branch's commit history, meanwhile, will serve as the living documentation of my journey into vim.
+
+UPDATE:  On April 30th, 20011, I realized I had now become faster for most tasks than I ever was with TextMate/visor. And it's accelerating!
+
+
+Getting Started
+---------------
+
 **If you're new to vim**, you should really watch all of Derek Wyatt's quirky/awesome tutorial videos [here.]
 
 **If you use git** (and presumably you do, since this is a github README file), the vim plugin Fugitive (included in this repo as a submodule) is a must-have! Watch [these] [vimcasts] to see why.
@@ -18,10 +26,6 @@ About
   [here.]: http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/
   [these]: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
   [vimcasts]: http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
-
-
-Usage
------
 
 
 **Installation**
@@ -41,6 +45,10 @@ Usage
  4. create symlink called `.vim` and point it to the folder `Pimped-Vim/.vim/`:
 
            ln -s /path/to/Pimped-Vim/.vim/ .vim
+
+
+Usage
+-----
 
 
 
