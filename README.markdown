@@ -28,19 +28,19 @@ Usage
 
  1. checkout the repo (the `--recursive` will force it to also checkout the submodules):
 
-           `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
+           git clone --recursive git://github.com/dorkitude/Pimped-Vim.git
 
  2. go to your home directory:
 
-           `cd ~`
+           cd ~
 
  3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`:
  
-           `ln -s /path/to/Pimped-Vim/.vimrc .vimrc`
+           ln -s /path/to/Pimped-Vim/.vimrc .vimrc
 
  4. create symlink called `.vim` and point it to the folder `Pimped-Vim/.vim/`:
 
-           `ln -s /path/to/Pimped-Vim/.vim/ .vim`
+           ln -s /path/to/Pimped-Vim/.vim/ .vim
 
 
 
