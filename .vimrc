@@ -20,7 +20,7 @@ set tags=tags;/
 
 "autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
-:colorscheme koehler
+:colorscheme evening
 
 
 "the so-called 'mandatory option'
