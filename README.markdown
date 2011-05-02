@@ -12,12 +12,22 @@ About
 
 **If you're new to vim**, you should really watch all of Derek Wyatt's quirky/awesome tutorial videos [here.]
 
+**If you use git (and presumably you do, since this is a github README file), the vim plugin Fugitive (included in this repo as a submodule)
+
   [@dorkitude]: http://twitter.com/dorkitude
   [here.]: http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/
 
 
 Usage
 -----
+
+ 1. do `git clone --recursive git://github.com/dorkitude/Pimped-Vim.git`
+ 2. go to your home directory
+ 3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`
+           `ln -s /path/to/Pimped-Vim/.vimrc .vimrc`
+ 4. create symlink called `.vim` and point it to the folder `Pimped-Vim/.vim/`:
+           `ln -s /path/to/Pimped-Vim/.vim/ .vim`
+
 
 **Window Movement**
 
