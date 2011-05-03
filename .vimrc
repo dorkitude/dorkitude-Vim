@@ -3,6 +3,9 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 
+" ruby and yaml files are indented by two
+autocmd FileType ruby,rdoc,cucumber,yaml set softtabstop=2 tabstop=2 shiftwidth=2
+
 "automatically indent
 set smartindent
 set cindent
