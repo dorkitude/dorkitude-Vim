@@ -59,10 +59,15 @@ set nocompatible
 set selectmode=""
 
 
+" this gives me convenient key mappings for window movement
 noremap <silent> ,h :wincmd h<CR>
 noremap <silent> ,j :wincmd j<CR>
 noremap <silent> ,k :wincmd k<CR>
 noremap <silent> ,l :wincmd l<CR>
+
+" a quick way to bring up Ack 
+noremap <silent> ,a :Ack
+
 
 "from here down is the default _vimrc
 set nocompatible

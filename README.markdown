@@ -66,6 +66,8 @@ I stole Derek Wyatt's window-motion bindings, which lets you do this to move con
 **Ack**
 [Ack] is the best way to search your codebase for a given pattern.
 
+With my settings, you can just hit `,a` and begin typing a pattern.  Press `enter` to perform the search.  The results will show up in a vim quickfix window, which gives you shortcuts to the file and line of each search result (move your cursor to the desired result and press `enter` to jump to that file/line).
+
   [Ack]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/#ack
 
 
