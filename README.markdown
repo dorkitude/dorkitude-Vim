@@ -63,6 +63,11 @@ I stole Derek Wyatt's window-motion bindings, which lets you do this to move con
 
 (Normally, these would be `^w h`  `^w j`  etc)
 
+**Ack**
+[Ack] is the best way to search your codebase for a given pattern.
+
+  [Ack]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/#ack
+
 
 **The NERDtree project drawer**
 
