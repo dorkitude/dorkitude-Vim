@@ -1,3 +1,16 @@
+
+filetype off
+call pathogen#runtime_append_all_bundles() 
+syntax on
+filetype plugin indent on
+
+" solarized
+set background=dark
+colorscheme solarized
+
+" don't know what this is actually
+au BufNewFile,BufRead *.apk set filetype=apk
+
 "set tabs to 4 spaces.
 set tabstop=4
 set expandtab
@@ -23,7 +36,7 @@ set tags=tags;/
 
 "autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
-:colorscheme evening
+":colorscheme evening
 
 
 "the so-called 'mandatory option'
@@ -58,7 +71,5 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 
 
-call pathogen#runtime_append_all_bundles() 
-call pathogen#helptags()
 
 
