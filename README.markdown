@@ -46,6 +46,11 @@ Getting Started
 
            ln -s /path/to/Pimped-Vim/.vim/ .vim
 
+ 5. Follow the [installation instructions] for Command-T.  IMHO Command-T is absolutely essential to using vim for a project, and it requires you to have a version of vim compiled with [Ruby support].  Don't skip this!
+
+    [installation instructions]: https://github.com/dorkitude/Pimped-Vim/blob/master/.vim/bundle/Command-T/README.txt
+    [Ruby support]: http://stackoverflow.com/questions/3794895/installing-vim-with-ruby-support-ruby
+
 
 Usage
 -----
