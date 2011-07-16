@@ -68,6 +68,9 @@ noremap <silent> ,l :wincmd l<CR>
 " a quick way to bring up Ack 
 noremap <silent> ,a :Ack
 
+" create a shortcut to get out of insert mode by typing 'jj'
+inoremap jj <ESC>
+
 
 "from here down is the default _vimrc
 set nocompatible

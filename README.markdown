@@ -56,6 +56,11 @@ Usage
 -----
 
 
+**Leaving insert mode**
+I stole Steve Losh's [Quicker Escaping] shortcut.  If you type `jj` while in insert mode, vim will exit to normal mode.
+  [Quicker Escaping]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/#quicker-escaping
+
+  
 
 **Window Movement**
 
