@@ -57,8 +57,16 @@ Usage
 
 
 **Leaving insert mode**
+
 I stole Steve Losh's [Quicker Escaping] shortcut.  If you type `jj` while in insert mode, vim will exit to normal mode.
   [Quicker Escaping]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/#quicker-escaping
+
+**git**
+
+Watch [this] and [this.]
+
+  [this]: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
+  [this.]: http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
 
   
 
@@ -74,6 +82,7 @@ I stole Derek Wyatt's window-motion bindings, which lets you do this to move con
 (Normally, these would be `^w h`  `^w j`  etc)
 
 **Ack**
+
 [Ack] is the best way to search your codebase for a given pattern.
 
 With my settings, you can just hit `,a` and begin typing a pattern.  Press `enter` to perform the search.  The results will show up in a vim quickfix window, which gives you shortcuts to the file and line of each search result (move your cursor to the desired result and press `enter` to jump to that file/line).
