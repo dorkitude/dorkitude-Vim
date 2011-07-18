@@ -61,9 +61,9 @@ Usage
 I stole Steve Losh's [Quicker Escaping] shortcut.  If you type `jj` while in insert mode, vim will exit to normal mode.
   [Quicker Escaping]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/#quicker-escaping
 
-**git**
+**using git via the Fugitive plugin**
 
-Watch [this] and [this.]
+While I've used git via the command line for years, I now rarely leave Vim to perform git commands.  To learn how, watch [this] and [this.]
 
   [this]: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
   [this.]: http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
