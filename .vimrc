@@ -66,7 +66,7 @@ noremap <silent> ,k :wincmd k<CR>
 noremap <silent> ,l :wincmd l<CR>
 
 " a quick way to bring up Ack 
-noremap <silent> ,a :Ack
+noremap <silent> ,a :Ack --follow 
 
 
 " create a shortcut to get out of insert mode by typing 'jj'
