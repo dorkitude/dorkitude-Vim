@@ -5,7 +5,7 @@ syntax on
 filetype plugin indent on
 
 " solarized
-set background=dark
+set background=light
 colorscheme solarized
 
 " don't know what this is actually
@@ -80,5 +80,12 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 
 
+map <leader>f :CommandTFlush<CR>
 
+    
+
+" turn off the annoying top bar in MacVim
+if has("gui_running")
+ set guioptions=egmrt
+endif
 
