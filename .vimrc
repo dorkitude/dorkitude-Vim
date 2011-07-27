@@ -60,10 +60,10 @@ set selectmode=""
 
 
 " this gives me convenient key mappings for window movement
-noremap <silent> ,h :wincmd h<CR>
-noremap <silent> ,j :wincmd j<CR>
-noremap <silent> ,k :wincmd k<CR>
-noremap <silent> ,l :wincmd l<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " a quick way to bring up Ack 
 noremap <silent> ,a :Ack --follow 
@@ -88,4 +88,8 @@ map <leader>f :CommandTFlush<CR>
 if has("gui_running")
  set guioptions=egmrt
 endif
+
+"give me that nice little gutter so i don't make stuff too wide
+"set formatoptions=qrn1
+"set colorcolumn=80
 

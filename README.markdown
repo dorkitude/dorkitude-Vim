@@ -72,12 +72,12 @@ While I've used git via the command line for years, I now rarely leave Vim to pe
 
 **Window Movement**
 
-I stole Derek Wyatt's window-motion bindings, which lets you do this to move control windows:
+My window motion bindings allow you to do this to move control windows:
 
- - `,h` move control to the window to the left
- - `,j` = move control to the window below
- - `,k` = move control to the window above
- - `,l` = move control to the window to the right
+ - `CTRL+h` move control to the window to the left
+ - `CTRL+j` = move control to the window below
+ - `CTRL+k` = move control to the window above
+ - `CTRL+l` = move control to the window to the right
 
 (Normally, these would be `^w h`  `^w j`  etc)
 
