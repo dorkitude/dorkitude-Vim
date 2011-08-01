@@ -103,6 +103,7 @@ You can activate Command-T with `\t`
 
 
 The following mappings are active when the prompt has focus:
+*note on mac laptops `fn +  <backspace>`  is equivalent to `<delete>`*
 
     <BS>        delete the character to the left of the cursor
     <Del>       delete the character at the cursor
