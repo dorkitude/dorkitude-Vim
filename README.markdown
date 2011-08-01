@@ -81,6 +81,11 @@ My window motion bindings allow you to do this to move control windows:
 
 (Normally, these would be `^w h`  `^w j`  etc)
 
+**Vim Surround**
+
+This thing is amazing!  It adds a new kind of target called a "surrounding", which means 'the area surrounding the current word'.  Read some usage examples [here.]
+  [here.]: http://www.vim.org/scripts/script.php?script_id=1697
+
 **Ack**
 
 [Ack] is the best way to search your codebase for a given pattern.
