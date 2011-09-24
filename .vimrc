@@ -93,3 +93,9 @@ endif
 "set formatoptions=qrn1
 "set colorcolumn=80
 
+" ------------------------------------------------------------------
+" Solarized Colorscheme Config
+" ------------------------------------------------------------------
+syntax enable
+set background=dark
+colorscheme solarized
