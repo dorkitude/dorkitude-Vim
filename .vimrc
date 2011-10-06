@@ -93,5 +93,20 @@ endif
 "set formatoptions=qrn1
 "set colorcolumn=80
 
+set clipboard=unnamed
+
+
+
+
+" smartcase makes it so:
+"    /copyright      " Case insensitive
+"    /Copyright      " Case sensitive
+"    /copyright\C    " Case sensitive
+"    /Copyright\c    " Case insensitive
+set smartcase
+
+
+
+
 "This allows you to hit Escape to unset the 'last search pattern' register 
 nnoremap <esc> :noh<return><esc>
