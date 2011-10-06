@@ -93,3 +93,5 @@ endif
 "set formatoptions=qrn1
 "set colorcolumn=80
 
+"This allows you to hit Escape to unset the 'last search pattern' register 
+nnoremap <esc> :noh<return><esc>
