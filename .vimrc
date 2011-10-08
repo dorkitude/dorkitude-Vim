@@ -1,14 +1,23 @@
 
+"TODO: comment explaing this, anyone?
 filetype off
 call pathogen#runtime_append_all_bundles() 
+
+"FIXME: why do I have both of these lines? must investigate them:
 syntax on
+syntax enable
+
+"TODO: comment explaining this, anyone?
 filetype plugin indent on
 
-" solarized
-set background=light
+"------------------------------------------------------------------
+"Solarized Colorscheme Config
+"------------------------------------------------------------------
+"set background=light
+set background=dark
 colorscheme solarized
 
-" don't know what this is actually
+"TODO: don't know what this is actually:
 au BufNewFile,BufRead *.apk set filetype=apk
 
 "set tabs to 4 spaces.
@@ -16,7 +25,7 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 
-" ruby and yaml files are indented by two
+"ruby and yaml files are indented by two
 autocmd FileType ruby,rdoc,cucumber,yaml set softtabstop=2 tabstop=2 shiftwidth=2
 
 "automatically indent
@@ -93,8 +102,9 @@ endif
 "set formatoptions=qrn1
 "set colorcolumn=80
 
+" this makes MacVim share your Mac keyboard. I don't know the non-MacVim
+" implications.
 set clipboard=unnamed
-
 
 
 
@@ -106,7 +116,6 @@ set clipboard=unnamed
 set smartcase
 
 
-
-
 "This allows you to hit Escape to unset the 'last search pattern' register 
 nnoremap <esc> :noh<return><esc>
+
