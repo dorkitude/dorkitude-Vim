@@ -47,19 +47,26 @@ set tags=tags;/
 autocmd VimEnter * wincmd p
 ":colorscheme evening
 
-
-"the so-called 'mandatory option'
+"the so-called 'mandatory option' -- TODO: research and add better comment 
 :set hidden
 
+"the sequence `\d` will delete the current buffer without killing the window
+nmap <leader>d :bprevious<CR>:bdelete #<CR>
 
-let NERDTreeIgnore = ['\.pyc$', '\~$']
+"NERDTreeIgnore
+let NERDTreeIgnore=[]
+let NERDTreeIgnore+=['.*\~$']
+let NERDTreeIgnore+=['.*\.pyc$']
+
+"setup NERDtree mapping
 map <F2> :NERDTreeToggle<CR>
 
+"add a shortcut to reindex CommandT's file listing
+map <leader>f :CommandTFlush<CR>
 
-"open the window larger than normal (100 wide by 40 tall)
-"win 100 40
-
+"we are in the future! no need to be compatible with Vi
 set nocompatible
+
 "allow for c,w to change part of a camel-cased word
 "source $HOME/Dropbox/dev/camelcasemotion.vim
 
@@ -89,7 +96,6 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 
 
-map <leader>f :CommandTFlush<CR>
 
     
 
