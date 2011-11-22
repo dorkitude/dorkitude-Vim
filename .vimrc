@@ -99,9 +99,11 @@ behave mswin
 
     
 
-" turn off the annoying top bar in MacVim
 if has("gui_running")
- set guioptions=egmrt
+  "turn off the right-hand scrollbar in MacVim:
+  set guioptions-=r
+  "turn off the annoying fat top bar in MacVim:
+  set guioptions-=T
 endif
 
 "give me that nice little gutter so i don't make stuff too wide
