@@ -125,3 +125,8 @@ set smartcase
 "This allows you to hit Escape to unset the 'last search pattern' register 
 nnoremap <esc> :noh<return><esc>
 
+" EasyGrep config
+let g:EasyGrepMode=2 "search only files of current type
+let g:EasyGrepRecursive=1 "default to recursive style search
+let g:EasyGrepReplaceWindowMode=2 "autowrite the files changed by :Replace
+

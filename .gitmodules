@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vim-abolish"]
 	path = .vim/bundle/vim-abolish
 	url = git://github.com/tpope/vim-abolish.git
+[submodule ".vim/bundle/EasyGrep"]
+	path = .vim/bundle/EasyGrep
+	url = https://github.com/vim-scripts/EasyGrep.git
