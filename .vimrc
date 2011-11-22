@@ -85,8 +85,8 @@ nnoremap <C-l> <C-w>l
 noremap <silent> ,a :Ack --follow 
 
 
-" create a shortcut to get out of insert mode by typing 'jj'
-inoremap jj <ESC>
+"create a shortcut to get out of insert mode by typing 'jj':
+"inoremap jj <ESC>
 
 
 "from here down is the default _vimrc
