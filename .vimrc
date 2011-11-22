@@ -18,7 +18,7 @@ set background=dark
 colorscheme solarized
 
 "TODO: don't know what this is actually:
-au BufNewFile,BufRead *.apk set filetype=apk
+"au BufNewFile,BufRead *.apk set filetype=apk
 
 "set tabs to 4 spaces.
 set tabstop=4
