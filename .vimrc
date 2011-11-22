@@ -127,6 +127,11 @@ set smartcase
 "This allows you to hit Escape to unset the 'last search pattern' register 
 nnoremap <esc> :noh<return><esc>
 
+
+" As the cursor moves to the top or bottom, the will start moving 5 lines
+" before the cursor reaches the first/last rendered line.
+set scrolloff=5
+
 " EasyGrep config
 let g:EasyGrepMode=2 "search only files of current type
 let g:EasyGrepRecursive=1 "default to recursive style search
