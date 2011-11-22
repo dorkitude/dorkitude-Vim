@@ -132,6 +132,12 @@ nnoremap <esc> :noh<return><esc>
 " before the cursor reaches the first/last rendered line.
 set scrolloff=5
 
+" Do some sweet status line magic!
+set statusline=\b%n%m\:\ %f "buffer/filename /modified, e.g. `b3[+]: ~/.vimrc`
+set statusline+=\ (%v\,%l/%L) "column/line/total lines, e.g. `(41,144/145)`
+set statusline+=%{exists('g:loaded_fugitive')?fugitive#statusline():''}
+
+
 " EasyGrep config
 let g:EasyGrepMode=2 "search only files of current type
 let g:EasyGrepRecursive=1 "default to recursive style search
