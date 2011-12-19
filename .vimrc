@@ -7,6 +7,12 @@ call pathogen#runtime_append_all_bundles()
 syntax on
 syntax enable
 
+"Tell new splits open below the active window, not above it:
+set splitbelow 
+
+"Tell new vertical open to the right of the active window:
+set splitright 
+
 "TODO: comment explaining this, anyone?
 filetype plugin indent on
 
