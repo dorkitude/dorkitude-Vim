@@ -16,3 +16,9 @@
 [submodule ".vim/bundle/EasyGrep"]
 	path = .vim/bundle/EasyGrep
 	url = https://github.com/vim-scripts/EasyGrep.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
