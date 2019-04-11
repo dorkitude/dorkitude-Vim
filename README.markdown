@@ -1,5 +1,5 @@
-Pimped Vim
-==========
+dorkitude-Vim
+=============
 
 
 
@@ -32,23 +32,23 @@ Getting Started
 
  1. checkout the repo (the `--recursive` will force it to also checkout the submodules):
 
-           git clone --recursive git://github.com/dorkitude/Pimped-Vim.git
+           git clone --recursive git://github.com/dorkitude/dorkitude-Vim.git
 
  2. go to your home directory:
 
            cd ~
 
- 3. create symlink called `.vimrc` and point it to `Pimped-Vim/.vimrc`:
- 
-           ln -s /path/to/Pimped-Vim/.vimrc .vimrc
+ 3. create symlink called `.vimrc` and point it to `dorkitude-Vim/.vimrc`:
 
- 4. create symlink called `.vim` and point it to the folder `Pimped-Vim/.vim/`:
+           ln -s /path/to/dorkitude-Vim/.vimrc .vimrc
 
-           ln -s /path/to/Pimped-Vim/.vim/ .vim
+ 4. create symlink called `.vim` and point it to the folder `dorkitude-Vim/.vim/`:
+
+           ln -s /path/to/dorkitude-Vim/.vim/ .vim
 
  5. Follow the [installation instructions] for Command-T.  IMHO Command-T is absolutely essential to using vim for a project, and it requires you to have a version of vim compiled with [Ruby support].  Don't skip this!
 
-  [installation instructions]: https://github.com/dorkitude/Pimped-Vim/blob/master/.vim/bundle/Command-T/README.txt
+  [installation instructions]: https://github.com/dorkitude/dorkitude-Vim/blob/master/.vim/bundle/Command-T/README.txt
   [Ruby support]: http://stackoverflow.com/questions/3794895/installing-vim-with-ruby-support-ruby
 
 
@@ -68,7 +68,7 @@ While I've used git via the command line for years, I now rarely leave Vim to pe
   [this]: http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
   [this.]: http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/
 
-  
+
 
 **Window Movement**
 
@@ -104,7 +104,7 @@ I have this mapped to F2.  On my Mac, that means I press `fn + F2`, since F2 alo
 
 **Command-T**
 
-You can activate Command-T with `\t` 
+You can activate Command-T with `\t`
 
 
 The following mappings are active when the prompt has focus:
@@ -144,7 +144,7 @@ has focus:
 The following is also available on terminals which support it:
 
     <Esc>       cancel (dismisses file listing)
-    
+
 
 
 
@@ -171,9 +171,9 @@ Red Tape
 Here's some crap I have to put in here to keep people from suing me.
 
 
-Pimped-Vim License
+dorkitude-Vim License
 ------------------
-Pimped-Vim is released under the `wtfpl`.
+dorkitude-Vim is released under the `wtfpl`.
 
 See http://sam.zoy.org/wtfpl
 
